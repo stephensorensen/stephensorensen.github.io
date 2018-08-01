@@ -38,6 +38,10 @@ body{
 	display: flex;
 }
 
+.about > h1{
+	text-align: center;
+}
+
 /*Skills*/
 .skills{
 	display: flex;
