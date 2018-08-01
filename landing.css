@@ -55,7 +55,12 @@ body{
 
 /*footer*/
 footer{
-	display: flex;
+	
+}
+
+.author{
+	
+display: flex;
 	justify-content: space-between;
 	flex-direction: flex-end;
 }
