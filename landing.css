@@ -8,7 +8,7 @@
 	padding: 0;
 }
 
-body{
+body{ 
 	font-family: 'Lobster', cursive;
 }
 
@@ -16,40 +16,40 @@ body{
 .container{
 	display: flex;
 	flex-direction: row;
+}
 
-	@media (max-width: 650px){
+.container > ul{
+	flex-direction: space-between;
+	list-style: none;
+}
+
+@media (max-width: 650px){
+	.container > ul{
 		flex-direction: column;
 	}
+}
 
-	.container > ul{
-		flex-direction: space-between;
-	}
+/*About*/
+.about{
+	display: flex;
+}
 
-	.container > ul > li{
-		list-style: none;
-	}
+/*Skills*/
+.skills{
+	display: flex;
+}
 
-	/*About*/
-	.about{
-		display: flex;
-	}
+/*Portfolio*/
+.portfolio{
+	display: flex;
+}
 
-	/*Skills*/
-	.skills{
-		display: flex;
-	}
+/*contact*/
+.contact{
+	display: flex;
+}
 
-	/*Portfolio*/
-	.portfolio{
-		display: flex;
-	}
-
-	/*contact*/
-	.contact{
-		display: flex;
-	}
-
-	/*footer*/
-	footer{
-		display: flex;
-	}
+/*footer*/
+footer{
+	display: flex;
+}
