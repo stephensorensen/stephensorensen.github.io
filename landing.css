@@ -62,6 +62,7 @@ footer{
 	
 	display: flex;
 	justify-content: center;
+	align-content: center;
 	background-color: #484848;
 	color: #F5F5F5;
 	min-height: 95px;
