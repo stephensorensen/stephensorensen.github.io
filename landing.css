@@ -17,6 +17,18 @@ body{
 	display: flex;
 	flex-direction: row;
 
+	ul{
+
+	}
+
+	li{
+		list-style: none;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
 	@media (max-width: 650px){
 		flex-direction: column;
 	}
