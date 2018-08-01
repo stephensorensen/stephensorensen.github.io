@@ -60,7 +60,6 @@ footer{
 
 .author{
 	
-display: flex;
-	justify-content: space-between;
-	flex-direction: flex-end;
+	display: flex;
+	justify-content: center;
 }
