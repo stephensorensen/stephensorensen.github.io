@@ -17,42 +17,39 @@ body{
 	display: flex;
 	flex-direction: row;
 
-	ul{
+	@media (max-width: 650px){
+		flex-direction: column;
+	}
+
+	.container > ul{
 		flex-direction: space-between;
 	}
 
-	li{
+	.container > ul > li{
 		list-style: none;
 	}
 
-	@media (max-width: 650px){
-		ul{
-			flex-direction: column;
-		}
+	/*About*/
+	.about{
+		display: flex;
 	}
-}
 
-/*About*/
-.about{
-	display: flex;
-}
+	/*Skills*/
+	.skills{
+		display: flex;
+	}
 
-/*Skills*/
-.skills{
-	display: flex;
-}
+	/*Portfolio*/
+	.portfolio{
+		display: flex;
+	}
 
-/*Portfolio*/
-.portfolio{
-	display: flex;
-}
+	/*contact*/
+	.contact{
+		display: flex;
+	}
 
-/*contact*/
-.contact{
-	display: flex;
-}
-
-/*footer*/
-footer{
-	display: flex;
-}
+	/*footer*/
+	footer{
+		display: flex;
+	}
