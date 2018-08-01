@@ -62,9 +62,9 @@ footer{
 	
 	display: flex;
 	justify-content: center;
-	align-content: center;
+	text-align: center;
 	background-color: #484848;
 	color: #F5F5F5;
-	min-height: 95px;
+	min-height: 75px;
 	padding: 10px;
 }
