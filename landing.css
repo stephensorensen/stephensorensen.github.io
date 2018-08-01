@@ -1,6 +1,7 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+
 /*Global settings*/
 *{
 	margin: 0;
@@ -9,4 +10,39 @@
 
 body{
 	font-family: 'Lobster', cursive;
+}
+
+/*Nav*/
+.container{
+	display: flex;
+	flex-direction: row;
+
+	@media (max-width: 650px){
+		flex-direction: column;
+	}
+}
+
+/*About*/
+.about{
+	display: flex;
+}
+
+/*Skills*/
+.skills{
+	display: flex;
+}
+
+/*Portfolio*/
+.portfolio{
+	display: flex;
+}
+
+/*contact*/
+.contact{
+	display: flex;
+}
+
+/*footer*/
+footer{
+	display: flex;
 }
