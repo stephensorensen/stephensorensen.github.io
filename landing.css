@@ -40,7 +40,7 @@ body{
 
 .about > h1{
 	text-align: center;
-	justify-content: center;
+	align-items: center;
 }
 
 /*Skills*/
