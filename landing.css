@@ -17,7 +17,7 @@ body{
 	
 }
 
-.container > ul{
+.container ul{
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
@@ -28,7 +28,7 @@ body{
 }
 
 @media (max-width: 650px){
-	.container > ul{
+	.container ul{
 		flex-direction: column;
 	}
 }
