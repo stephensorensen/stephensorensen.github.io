@@ -25,12 +25,10 @@ body{
 		list-style: none;
 	}
 
-	a{
-		text-decoration: none;
-	}
-
 	@media (max-width: 650px){
-		flex-direction: column;
+		ul{
+			flex-direction: column;
+		}
 	}
 }
 
