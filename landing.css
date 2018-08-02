@@ -15,18 +15,20 @@ body{
 /*Nav*/
 .container{
 	background-color: #484848;
-	
 }
 
 .container ul{
 	display: flex;
 	justify-content: space-around;
+}
+
+.container li{
 	list-style: none;
 }
 
 .container a{
- 	text-decoration: none;
 	color: #F5F5F5;
+ 	text-decoration: none;
 }
 
 @media (max-width: 650px){
