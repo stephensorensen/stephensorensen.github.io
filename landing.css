@@ -22,11 +22,11 @@ body{
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	color: #F5F5F5;
 }
 
 .container a{
  	text-decoration: none;
+	color: #F5F5F5;
 }
 
 @media (max-width: 650px){
