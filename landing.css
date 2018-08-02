@@ -38,6 +38,8 @@ body{
 @media (max-width: 650px){
 	.container ul{
 		flex-direction: column;
+		text-align: center;
+		border-radius: 3px;
 	}
 }
 
