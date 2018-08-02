@@ -29,6 +29,10 @@ body{
 .container a{
 	color: #F5F5F5;
  	text-decoration: none;
+	font-size: 40px;
+}
+.container a:hover{
+	color: #92cece; 
 }
 
 @media (max-width: 650px){
