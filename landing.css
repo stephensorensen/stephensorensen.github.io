@@ -41,7 +41,6 @@ body{
 		flex-direction: column;
 		text-align: center;
 		border-radius: 3px;
-		flex-wrap: none;
 	}
 }
 
@@ -89,11 +88,18 @@ body{
 /*Portfolio*/
 .portfolio{
 	display: flex;
+	margin-top: 15px;
+}
+
+.portfolio h2{
+	text-align: center;
+	margin: 0 auto;
 }
 
 /*contact*/
 .contact{
 	display: flex;
+	
 }
 
 /*footer*/
