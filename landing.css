@@ -10,11 +10,19 @@
 
 body{ 
 	font-family: 'Lobster', cursive;
+
+}
+
+h2{
+	margin: auto;
+	text-align: center;
 }
 
 /*Nav*/
 .container{
 	background-color: #484848;
+	position: fixed;
+	width: 100%;
 }
 
 .container ul{
@@ -47,18 +55,30 @@ body{
 /*About*/
 .about{
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 60px;
+	min-height: 95vh;
 }
 
 .about > h1{
 	text-align: center;
 	margin: 0 auto;
 }
+.about p{
+	text-align: center;
+	margin:0 auto;
+}
 
 /*Skills*/
 .skills{
 	display: flex;
 	justify-content: space-around;
-	padding: 5px;
+	padding: 15vh 0;
+	min-height: 40vh;
+	margin-bottom:0 30px;
 }
 
 .fa-html5{
@@ -74,7 +94,12 @@ body{
 }
 
 @media (max-width: 650px){
+	.about{
+		padding-top: 250px;
+		min-height: 60vh;
+	}
 	.skills{
+		padding: 1vh;
 		flex-direction: column;
 		align-items: center;
 		margin: auto;
@@ -91,9 +116,9 @@ body{
 	margin-top: 15px;
 }
 
-.portfolio h2{
-	text-align: center;
-	margin: 0 auto;
+.portfolio p{
+	font-family: sans;
+	
 }
 
 /*contact*/
