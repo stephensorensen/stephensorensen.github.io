@@ -24,17 +24,14 @@ h2{
 	position: fixed;
 	width: 100%;
 }
-
 .container ul{
 	display: flex;
 	justify-content: space-around;
 }
-
 .container li{
 	list-style: none;
 	padding: 5px 0;
 }
-
 .container a{
 	color: #F5F5F5;
  	text-decoration: none;
@@ -62,7 +59,6 @@ h2{
 	padding-top: 60px;
 	min-height: 95vh;
 }
-
 .about > h1{
 	text-align: center;
 	margin: 0 auto;
@@ -84,11 +80,9 @@ h2{
 .fa-html5{
 	color: #e34f26;
 }
-
 .fa-css3-alt{
 	color:  #1680C0;
 }
-
 .fa-js-square{
 	color: #f7df1e;
 }
@@ -98,13 +92,13 @@ h2{
 		padding-top: 250px;
 		min-height: 60vh;
 	}
+	
 	.skills{
 		padding: 1vh;
 		flex-direction: column;
 		align-items: center;
 		margin: auto;
 	}
-	
 	.skills i{
 		margin-bottom: 20px;
 	}
@@ -116,7 +110,6 @@ h2{
 	flex-direction: column;
 	width: 100%;
 }
-
 .wrapper p{
 	font-family: sans;
 }
@@ -124,26 +117,34 @@ h2{
 .portfolio{
 	display: flex;
 	margin-top: 15px;
-	border: 1px solid black;
 }
-
-.portfolio div{
-	border: 1px solid black;
-	width: 100%;
-	flex-direction: space-around;
-	
-	
+.portfolio > div{
+	margin: 10px;
+	border: 5px solid orange;
+	flex: 50%; /*Set div to 50% (2 columns)*/
+    max-width: 50%; /*Set div to 50% (2 columns)*/
 }
 
 .portfolio img{
-	max-width: 500px;
-	width: 100%;
+	max-width: 100%; /*set img to 100% of container width*/
+    display: block;
+    height: auto;
 }
+
+@media (max-width: 650px){
+		.portfolio{
+			flex-direction: column;
+			width: 100%;
+		}
+		.portfolio > div{
+			max-width: 100%; /*extend div 100% on media call*/
+			margin: 10px 0;
+		}
+	}
 
 /*contact*/
 .contact{
 	display: flex;
-	
 }
 
 /*footer*/
