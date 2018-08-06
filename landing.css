@@ -111,14 +111,33 @@ h2{
 }
 
 /*Portfolio*/
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.wrapper p{
+	font-family: sans;
+}
+
 .portfolio{
 	display: flex;
 	margin-top: 15px;
+	border: 1px solid black;
 }
 
-.portfolio p{
-	font-family: sans;
+.portfolio div{
+	border: 1px solid black;
+	width: 100%;
+	flex-direction: space-around;
 	
+	
+}
+
+.portfolio img{
+	max-width: 500px;
+	width: 100%;
 }
 
 /*contact*/
