@@ -10,12 +10,20 @@
 
 body{ 
 	font-family: 'Lobster', cursive;
+	background: linear-gradient(to bottom right, #f3f9f9, #fcfff7); /*body background gradient color*/
 
 }
 
 h2{
 	margin: auto;
 	text-align: center;
+}
+
+hr{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 /*Nav*/
@@ -35,7 +43,7 @@ h2{
 .container a{
 	color: #F5F5F5;
  	text-decoration: none;
-	font-size: 40px;
+	font-size: 35px;
 }
 .container a:hover{
 	color: #92cece; 
@@ -120,7 +128,6 @@ h2{
 }
 .portfolio > div{
 	margin: 10px;
-	border: 5px solid orange;
 	flex: 50%; /*Set div to 50% (2 columns)*/
     max-width: 50%; /*Set div to 50% (2 columns)*/
 }
@@ -129,6 +136,7 @@ h2{
 	max-width: 100%; /*set img to 100% of container width*/
     display: block;
     height: auto;
+	border-radius: 5px;
 }
 
 @media (max-width: 650px){
@@ -145,6 +153,25 @@ h2{
 /*contact*/
 .contact{
 	display: flex;
+	justify-content: center;
+}
+.contact a{
+	padding: 0 10px; 
+}
+.fa-free-code-camp{
+	color: #006400;
+}
+.fa-free-code-camp:hover{
+	color: #ff9c2a; 
+}
+.fa-linkedin:hover{
+	color: #86888a;
+}
+.fa-github{
+	color: #6cc644;
+}
+.fa-github:hover{
+	color: #bd2c00;
 }
 
 /*footer*/
@@ -153,7 +180,6 @@ footer{
 }
 
 .author{
-	
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
