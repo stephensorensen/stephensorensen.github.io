@@ -98,6 +98,10 @@ hr{
 	color: #f7df1e;
 }
 
+.fa-angular{
+	color: #dd1b16;
+}
+
 /*Skills responsive*/
 @media (max-width: 650px){
 	.about{
