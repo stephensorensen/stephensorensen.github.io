@@ -26,31 +26,34 @@ hr{
 	margin-top: 10px;
 }
 
-/*Nav*/
-.container{
+/*Navbar*/
+.nav_container{
 	background-color: #484848;
 	position: fixed;
+	display: flex;
 	width: 100%;
+	justify-content: center;
 }
-.container ul{
+.nav_container ul{
 	display: flex;
 	justify-content: space-around;
 }
-.container li{
+.nav_container li{
 	list-style: none;
-	padding: 5px 0;
+	padding: 1em 3em;		
 }
-.container a{
+.nav_container a{
 	color: #F5F5F5;
  	text-decoration: none;
 	font-size: 35px;
 }
-.container a:hover{
+.nav_container a:hover{
 	color: #92cece; 
 }
 
+/*Navbar responsive*/
 @media (max-width: 650px){
-	.container ul{
+	.nav_container ul{
 		flex-direction: column;
 		text-align: center;
 		border-radius: 3px;
@@ -95,6 +98,11 @@ hr{
 	color: #f7df1e;
 }
 
+.fa-angular{
+	color: #dd1b16;
+}
+
+/*Skills responsive*/
 @media (max-width: 650px){
 	.about{
 		padding-top: 250px;
@@ -140,6 +148,7 @@ hr{
 	border-radius: 5px;
 }
 
+/*Portfolio responsive*/
 @media (max-width: 650px){
 		.portfolio{
 			flex-direction: column;
@@ -176,10 +185,6 @@ hr{
 }
 
 /*footer*/
-footer{
-	
-}
-
 .author{
 	display: flex;
 	justify-content: flex-end;
